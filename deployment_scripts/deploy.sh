@@ -15,7 +15,7 @@ function install_package {
     if [ $OS_NAME == 'ubuntu' ]; then
         apt-get install -y --force-yes -o 'APT::Get::AllowUnauthenticated=1' default-jdk tomcat7
     elif [ $OS_NAME == 'centos' ]; then
-        yum install -y tomcat
+        yum install -y java-1.7.0-openjdk tomcat
     fi
 }
 
