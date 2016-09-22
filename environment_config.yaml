@@ -1,0 +1,12 @@
+attributes:
+
+  fuel_plugin_example_text:
+    type: "text"
+    weight: 10
+    value: "8080"
+    label: "Tomcat HTTP port"
+    description: "Please enter Tomcat HTTP Port (ex.: 8080)"
+    regex:
+      source: '\S'
+      error: "Error field cannot be empty"
+
