@@ -1,6 +1,6 @@
 attributes:
 
-  fuel_plugin_example_text:
+  fuel_authzforce_plugin:
     type: "text"
     weight: 10
     value: "8080"

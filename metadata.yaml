@@ -7,6 +7,7 @@ version: '1.0.0'
 description: Plugin install AuthZForce on computer node
 # Minimum required fuel version
 fuel_version: ['9.0']
+authors: ['Welkson Renny']
 
 # The plugin is compatible with releases in the list
 releases:
