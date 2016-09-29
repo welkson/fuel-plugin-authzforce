@@ -1,15 +1,13 @@
-# Plugin name
-name: fuel_plugin_authzforce
+name: fuel-plugin-authzforce
 title: AuthZForce Plugin for Fuel 9 
-# Plugin version
 version: '1.0.0'
-# Description
-description: Plugin install AuthZForce on computer node
-# Minimum required fuel version
+description: Plugin for AuthZForce on computer node
+licenses: ['Apache License Version 2.0']
+homepage: 'https://github.com/welkson/fuel-plugin-authzforce'
+groups: []
 fuel_version: ['9.0']
 authors: ['Welkson Renny']
-
-# The plugin is compatible with releases in the list
+is_hotppluggable: true
 releases:
   - os: ubuntu
     version: 2014.2-6.0
@@ -44,4 +42,4 @@ releases:
 
 
 # Version of plugin package
-package_version: '1.0.0'
+package_version: '3.0.0'

@@ -1,0 +1,10 @@
+- id: fuel_plugin_authzforce-post-deployment-sh
+  type: shell
+  role: [fuel_plugin_authzforce]
+  required_for: [post_deployment_end]
+  requires: [post_deployment_start]
+  parameters:
+    cmd: bash deploy.sh
+    retries: 3
+    interval: 20
+    timeout: 180
