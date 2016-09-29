@@ -33,4 +33,5 @@ function install_package {
     sudo service tomcat7 restart
 }
 
-install_package()
+install_package
+

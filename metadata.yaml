@@ -1,6 +1,6 @@
 name: fuel-plugin-authzforce
 title: AuthZForce Plugin for Fuel 9 
-version: '1.0.3'
+version: '1.0.4'
 description: Plugin for AuthZForce on computer node
 licenses: ['Apache License Version 2.0']
 homepage: 'https://github.com/welkson/fuel-plugin-authzforce'
