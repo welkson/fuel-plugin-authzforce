@@ -1,5 +1,3 @@
 AuthZForce:
   name: "AuthZForce"
   description: "AuthZForce plugin"
-  limits:
-    min: 1
