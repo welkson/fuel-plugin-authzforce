@@ -8,6 +8,8 @@ groups: []
 fuel_version: ['9.0']
 authors: ['Welkson Renny']
 is_hotppluggable: true
+is_hotpluggable: true
+
 releases:
   - os: ubuntu
     version: 2014.2-6.0
