@@ -1,6 +1,6 @@
 - id: fuel_plugin_authzforce-post-deployment-sh
   type: shell
-  role: [fuel_plugin_authzforce]
+  role: [AuthZForce]
   required_for: [post_deployment_end]
   requires: [post_deployment_start]
   parameters:
@@ -8,3 +8,12 @@
     retries: 3
     interval: 20
     timeout: 180
+
+- id: AuthZForce
+  type: group
+  role: [AuthZForce]
+  requires: [computer]
+  required_for: [deploy_end]
+  parameters:
+    strategy:
+      type: parallel
