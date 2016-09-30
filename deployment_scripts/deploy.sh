@@ -11,7 +11,7 @@ function install_package {
 
     # update APT repositories
     sudo -E apt-get update --assume-yes -qq
-    sudo -E apt-get install --assume-yes -qq gdebi curl debconf-utils
+    sudo -E apt-get install --assume-yes -qq gdebi-core curl debconf-utils
 
     # install Java and Tomcat
     apt-get install -y --force-yes -o 'APT::Get::AllowUnauthenticated=1' default-jdk tomcat7
